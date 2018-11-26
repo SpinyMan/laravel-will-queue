@@ -26,8 +26,8 @@ $ composer require spinyman/laravel-will-queue
 use SpinyMan\WillQueue\Notifiable;
 
 class User extends Authenticatable {
-	use Notifiable;
-	...
+    use Notifiable;
+    ...
 }
 ```
 

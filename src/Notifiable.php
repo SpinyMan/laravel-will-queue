@@ -6,7 +6,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 
 trait Notifiable
 {
-    use \Illuminate\Notifications\Notifiable;
+    use \Illuminate\Notifications\Notifiable {notify as doNotify;}
 
     /**
      * Queue will be used if second param exists and it's true,
@@ -21,7 +21,7 @@ trait Notifiable
             $instance = new WillQueue($instance);
         }
 
-        parent::notify($instance);
+        self::doNotify($instance);
     }
 
     /**
@@ -35,6 +35,6 @@ trait Notifiable
             $instance = new WillQueue($instance);
         }
 
-        parent::notify($instance);
+        self::doNotify($instance);
     }
 }
