@@ -14,7 +14,7 @@ Sometimes you need more flexibility and be able to change notification type (ins
 Via Composer
 
 ``` bash
-$ composer require SpinyMan/laravel-will-queue
+$ composer require spinyman/laravel-will-queue
 ```
 
 ## Usage
@@ -42,17 +42,17 @@ $user = User::find(1);
 $user->notifyFromQueue(new EmailNotification());
 ```
 
-[ico-version]: https://img.shields.io/packagist/v/SpinyMan/laravel-will-queue.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/spinyman/laravel-will-queue.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/SpinyMan/laravel-will-queue/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/SpinyMan/laravel-will-queue.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/SpinyMan/laravel-will-queue.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/SpinyMan/laravel-will-queue.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/spinyman/laravel-will-queue/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/spinyman/laravel-will-queue.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/spinyman/laravel-will-queue.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/spinyman/laravel-will-queue.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/SpinyMan/laravel-will-queue
-[link-travis]: https://travis-ci.org/SpinyMan/laravel-will-queue
-[link-scrutinizer]: https://scrutinizer-ci.com/g/SpinyMan/laravel-will-queue/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/SpinyMan/laravel-will-queue
-[link-downloads]: https://packagist.org/packages/SpinyMan/laravel-will-queue
+[link-packagist]: https://packagist.org/packages/spinyman/laravel-will-queue
+[link-travis]: https://travis-ci.org/spinyman/laravel-will-queue
+[link-scrutinizer]: https://scrutinizer-ci.com/g/spinyman/laravel-will-queue/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/spinyman/laravel-will-queue
+[link-downloads]: https://packagist.org/packages/spinyman/laravel-will-queue
 [link-author]: https://github.com/:author_username
 [link-contributors]: ../../contributors

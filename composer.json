@@ -1,12 +1,12 @@
 {
-    "name": "SpinyMan/laravel-will-queue",
+    "name": "spinyman/laravel-will-queue",
     "type": "library",
     "description": "",
     "keywords": [
         "SpinyMan",
         "laravel-will-queue"
     ],
-    "homepage": "https://github.com/SpinyMan/laravel-will-queue",
+    "homepage": "https://github.com/spinyman/laravel-will-queue",
     "license": "MIT",
     "authors": [
         {
