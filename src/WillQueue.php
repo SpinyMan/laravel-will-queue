@@ -4,9 +4,12 @@ namespace SpinyMan\WillQueue;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Notification;
+use Illuminate\Bus\Queueable;
 
 class WillQueue extends Notification implements ShouldQueue
 {
+    use Queueable;
+
     protected $model;
 
     public function __construct($model)
